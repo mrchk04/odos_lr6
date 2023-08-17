@@ -1,0 +1,60 @@
+body{
+    background-color: #7251B5;
+    font-family: 'Raleway', sans-serif;
+    color: #FBFAFF;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+nav{/*навігація*/
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #ffffff;
+}
+a{/*посилання*/
+    color:#ffffff;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+}
+
+.all_articles {/*статті (темніше поле)*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    padding: 0.3rem;
+    background-color: #9163CB;
+    font-size: 28px;
+}
+
+.all_articles > h1,
+.one_article {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 20px;
+}
+
+.one_article {/*статті (світлі блоки)*/
+    background: right/contain content-box border-box no-repeat #B185DB;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.one_article > h1,
+.one_article > p {
+    margin: 0.2rem;
+    font-size: 16px;
+    font-style: italic;
+}
+footer{
+    display: flex;
+    text-align: center;
+}
